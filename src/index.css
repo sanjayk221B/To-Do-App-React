@@ -1,0 +1,95 @@
+:root {
+  /* color-scheme: light dark; */
+  background-color: #292525;
+  background-image: url(https://images.pexels.com/photos/3942924/pexels-photo-3942924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+.to-do-list {
+  font-family: Arial, sans-Serif;
+  text-align: center;
+  margin-top: 100px;
+  border: 5px solid rgba(0, 0, 0, 0.171);
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  background-color: #2925257a;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color o.5 ease;
+}
+
+.add-button {
+  margin-left: 0.2%;
+  background-color: hsl(125, 47%, 54%);
+}
+
+.add-button:hover {
+  background-color: hsl(125, 47%, 44%);
+}
+
+.delete-button {
+  background-color: hsl(10, 76%, 36%);
+}
+
+.delete-button:hover {
+  background-color: hsl(10, 76%, 25%);
+}
+
+.move-button {
+  background-color: hsl(207, 91%, 41%);
+}
+
+.move-button:hover {
+  background-color: hsl(207, 91%, 31%);
+}
+
+input[type="text"] {
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 20px hsl(0, 0%, 80%, 0.5);
+  border-radius: 10px;
+  color: hsl(0, 0%, 0%, 0.5);
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5px;
+  background-color: hsla(0, 0%, 97%, 0.381);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.51);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.delete-button,
+.move-button {
+  padding: 5px 8px;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
